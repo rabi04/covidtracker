@@ -31,9 +31,7 @@ const Chart = ()=>{
             }}
         />): null
     );
-    const barchart = {
-        
-    }
+   
     return(
         <div className={styles.container}>
         {linechart}

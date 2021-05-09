@@ -29,7 +29,7 @@ console.log(`${country}`)
     <div className = {styles.container}>
     <Cards data={data}/>
     <Countrypicker setcountry = {setcountry}/>
-    <Typography variant="primart" gutterBottom="true" variant='h3'> world covid-19 data</Typography>
+    <Typography  gutterBottom="true" variant='h3'> world covid-19 data</Typography>
      <Chart />
     </div>
   );
